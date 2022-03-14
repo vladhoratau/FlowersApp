@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/cardView_margin"
+    android:elevation="@dimen/cardView_elevation"
+    app:cardCornerRadius="@dimen/cardView_cornerRadius">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/card_marginTop"
+        android:paddingStart="@dimen/card_paddingStart"
+        android:paddingLeft="@dimen/card_paddingStart"
+        android:textColor="@color/black">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/orderID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/orderStatus"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>
