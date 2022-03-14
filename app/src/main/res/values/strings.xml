@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">FlowersApp</string>
+
+    <string name="BASE_URL">https://demo6394362.mockable.io/</string>
+    <string name="MODEL_CLASS_ERROR">ViewModel Not Found</string>
+    <string name="GET_REQUEST_SUCCESSFUL">GET orders request successfully</string>
+    <string name="ORDER_LIST_UPDATED">Order list updated</string>
+    <string name="PASSED_ORDER">PASSED_ORDER</string>
+    <string name="ORDER_ID_TEXT">Order #</string>
+    <string name="ORDER_STATUS_TEXT">"Status: "</string>
+    <string name="ORDER_DESCRIPTION_TEXT">"Description: "</string>
+    <string name="ORDER_PRICE_TEXT">"Price: "</string>
+    <string name="ORDER_DELIVER_TO_TEXT">"Deliver to: "</string>
+    <string name="INSERT_ORDER">Insert order into DB successfully</string>
+    <string name="UPDATE_ORDER_STATUS">Update order status into DB successfully</string>
+    <string name="UPDATE_ORDERS">Update orders into DB successfully</string>
+    <string name="GET_ORDERS">Get orders from DB successfully</string>
+    <string name="DB_DATA">There is no internet connection. Retrieving last order list from the local DB.</string>
+    <string name="BACKEND_DATA">Retrieving data from the backend.</string>
+    <string name="SEARCH_ORDER">Search order by ID</string>
+    <string name="PENDING_ORDER">Mark order as pending</string>
+    <string name="DELIVERED_ORDER">Mark order as delivered</string>
+    <string name="DATA_UPDATED">Data updated from the backend</string>
+    <string name="STATUS_UPDATED">Order status successfully updated</string>
+    <string name="CURRENCY">" RON"</string>
+    <string name="NO_INTERNET">There is no internet connection.</string>
 </resources>
