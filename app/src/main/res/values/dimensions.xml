@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardView_margin">8dp</dimen>
+    <dimen name="cardView_elevation">8dp</dimen>
+    <dimen name="cardView_cornerRadius">8dp</dimen>
+    <dimen name="card_marginTop">10dp</dimen>
+    <dimen name="card_height">40dp</dimen>
+    <dimen name="order_textSize">30dp</dimen>
+    <dimen name="card_paddingStart">20dp</dimen>
+    <dimen name="button_marginStart">10dp</dimen>
+    <dimen name="button_marginEnd">20dp</dimen>
+    <dimen name="card_paddingTop">10dp</dimen>
+    <dimen name="detailedView_paddingTop">30dp</dimen>
+    <dimen name="detailedView_paddingStart">10dp</dimen>
+    <dimen name="orderText_marginBottom">10dp</dimen>
+</resources>
